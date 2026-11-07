@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\11656\\Desktop\\gonshi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.domain\\worktime.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|solutionrelative:src\\worktime.domain\\worktime.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD95BCD7-D09C-6DA4-D918-3F76C4D9FC9E}|src\\WorkTime.Api\\WorkTime.Api.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FD95BCD7-D09C-6DA4-D918-3F76C4D9FC9E}|src\\WorkTime.Api\\WorkTime.Api.csproj|solutionrelative:src\\worktime.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\services\\timeentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\services\\timeentryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\services\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\services\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.domain\\common\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|solutionrelative:src\\worktime.domain\\common\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.domain\\common\\domainenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF847FDE-A126-A083-AB8D-CA7320A028AD}|src\\WorkTime.Domain\\WorkTime.Domain.csproj|solutionrelative:src\\worktime.domain\\common\\domainenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39953F92-0906-0353-6FDB-2CC01A53C9F8}|src\\WorkTime.Application\\WorkTime.Application.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.application\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39953F92-0906-0353-6FDB-2CC01A53C9F8}|src\\WorkTime.Application\\WorkTime.Application.csproj|solutionrelative:src\\worktime.application\\common\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39953F92-0906-0353-6FDB-2CC01A53C9F8}|src\\WorkTime.Application\\WorkTime.Application.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.application\\common\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39953F92-0906-0353-6FDB-2CC01A53C9F8}|src\\WorkTime.Application\\WorkTime.Application.csproj|solutionrelative:src\\worktime.application\\common\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|c:\\users\\11656\\desktop\\gonshi\\src\\worktime.infrastructure\\security\\captchaimagerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF42AB0-FD26-151F-1A58-4579E4368F98}|src\\WorkTime.Infrastructure\\WorkTime.Infrastructure.csproj|solutionrelative:src\\worktime.infrastructure\\security\\captchaimagerenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkTime.Domain",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\WorkTime.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\WorkTime.Domain\\WorkTime.Domain.csproj",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\WorkTime.Domain.csproj",
+              "RelativeToolTip": "src\\WorkTime.Domain\\WorkTime.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-31T13:36:48.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFsAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:26:14.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TimeEntryService.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\TimeEntryService.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Services\\TimeEntryService.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\TimeEntryService.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Services\\TimeEntryService.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAswI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:50.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardService.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\DashboardService.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Services\\DashboardService.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\DashboardService.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Services\\DashboardService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:41.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\ReportService.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Services\\ReportService.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Services\\ReportService.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Services\\ReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:40.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\Common\\EntityBase.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Domain\\Common\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\Common\\EntityBase.cs",
+              "RelativeToolTip": "src\\WorkTime.Domain\\Common\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:34.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DomainEnums.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\Common\\DomainEnums.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Domain\\Common\\DomainEnums.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Domain\\Common\\DomainEnums.cs",
+              "RelativeToolTip": "src\\WorkTime.Domain\\Common\\DomainEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:33.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Application\\Common\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Application\\Common\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Application\\Common\\ServiceResult.cs",
+              "RelativeToolTip": "src\\WorkTime.Application\\Common\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:21.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentityContext.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Application\\Common\\IdentityContext.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Application\\Common\\IdentityContext.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Application\\Common\\IdentityContext.cs",
+              "RelativeToolTip": "src\\WorkTime.Application\\Common\\IdentityContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:19.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:12.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CaptchaImageRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Security\\CaptchaImageRenderer.cs",
+              "RelativeDocumentMoniker": "src\\WorkTime.Infrastructure\\Security\\CaptchaImageRenderer.cs",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Infrastructure\\Security\\CaptchaImageRenderer.cs",
+              "RelativeToolTip": "src\\WorkTime.Infrastructure\\Security\\CaptchaImageRenderer.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAUwBUAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T13:25:02.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\WorkTime.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\11656\\Desktop\\gonshi\\src\\WorkTime.Api\\appsettings.json",
+              "RelativeToolTip": "src\\WorkTime.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-31T12:50:28.937Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

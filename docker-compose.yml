@@ -1,0 +1,75 @@
+name: projecthub
+
+services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: projecthub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: projecthub
+      POSTGRES_USER: projecthub
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?请在 .env 中设置 POSTGRES_PASSWORD}
+      TZ: Asia/Hong_Kong
+      PGTZ: Asia/Hong_Kong
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U projecthub -d projecthub"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - projecthub-network
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: projecthub-app
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Production
+      ConnectionStrings__PostgreSql: Host=postgres;Port=5432;Database=projecthub;Username=projecthub;Password=${POSTGRES_PASSWORD};Pooling=true;Minimum Pool Size=1;Maximum Pool Size=100
+      Jwt__Issuer: ProjectHub
+      Jwt__Audience: ProjectHub.Web
+      Jwt__SecretKey: ${JWT_SECRET:?请在 .env 中设置 JWT_SECRET}
+      Jwt__AccessTokenMinutes: 30
+      Jwt__RefreshTokenDays: 14
+      InitialAdmin__UserName: ${INITIAL_ADMIN_USERNAME:-admin}
+      InitialAdmin__DisplayName: ${INITIAL_ADMIN_DISPLAY_NAME:-系统管理员}
+      InitialAdmin__EmployeeNo: ${INITIAL_ADMIN_EMPLOYEE_NO:-ADMIN}
+      InitialAdmin__Password: ${INITIAL_ADMIN_PASSWORD:?请在 .env 中设置 INITIAL_ADMIN_PASSWORD}
+      AssetStorage__RootPath: /app/data/project-assets
+      AssetStorage__MaximumFileSizeMb: ${ASSET_MAXIMUM_FILE_SIZE_MB:-1024}
+      AssetStorage__MaximumPackageSizeMb: ${ASSET_MAXIMUM_PACKAGE_SIZE_MB:-10240}
+      Smtp__Enabled: ${SMTP_ENABLED:-false}
+      Smtp__Host: ${SMTP_HOST:-}
+      Smtp__Port: ${SMTP_PORT:-587}
+      Smtp__EnableSsl: ${SMTP_ENABLE_SSL:-true}
+      Smtp__UseDefaultCredentials: ${SMTP_USE_DEFAULT_CREDENTIALS:-false}
+      Smtp__UserName: ${SMTP_USERNAME:-}
+      Smtp__Password: ${SMTP_PASSWORD:-}
+      Smtp__FromAddress: ${SMTP_FROM_ADDRESS:-}
+      Smtp__FromName: ${SMTP_FROM_NAME:-ProjectHub}
+      Notifications__PublicWebUrl: ${PUBLIC_WEB_URL:-http://localhost:8080/#}
+      TimesheetReminders__TimeZoneId: ${REMINDER_TIME_ZONE_ID:-Asia/Hong_Kong}
+      TZ: Asia/Hong_Kong
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    volumes:
+      - asset-data:/app/data/project-assets
+    networks:
+      - projecthub-network
+
+volumes:
+  postgres-data:
+    name: projecthub-postgres-data
+  asset-data:
+    name: projecthub-asset-data
+
+networks:
+  projecthub-network:
+    name: projecthub-network

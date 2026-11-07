@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.9" />
+    <PackageReference Include="SqlSugarCoreNoDrive" Version="5.1.4.216" />
+    <PackageReference Include="Npgsql" Version="10.0.3" />
+    <PackageReference Include="ClosedXML" Version="0.104.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectHub.Domain\ProjectHub.Domain.csproj" />
+    <ProjectReference Include="..\ProjectHub.Application\ProjectHub.Application.csproj" />
+  </ItemGroup>
+
+</Project>
